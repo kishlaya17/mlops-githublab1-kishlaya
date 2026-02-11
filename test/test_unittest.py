@@ -1,5 +1,11 @@
 import unittest
-from src.calculator import add_numbers, subtract_numbers, multiply_numbers, divide_numbers, combined_operation
+from src.calculator import (
+    add_numbers,
+    subtract_numbers,
+    multiply_numbers,
+    divide_numbers,
+    combined_operation,
+)
 
 
 class TestCalculator(unittest.TestCase):
