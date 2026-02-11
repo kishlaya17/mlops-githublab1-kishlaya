@@ -28,4 +28,5 @@ jobs:
       run: flake8 . --max-line-length=120
 
     - name: Run Pytest
-      run: pytest
+      run: PYTHONPATH=. pytest
+
