@@ -24,4 +24,6 @@ def test_divide():
 
 
 def test_combined():
-    assert combined_operation(3, 2) == (5 + 1 + 6)
+    result = combined_operation(3, 2)
+    expected = (3 + 2) + (3 - 2) + (3 * 2)
+    assert result == expected
